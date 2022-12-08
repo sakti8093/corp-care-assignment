@@ -9,6 +9,7 @@ import help from '../svgs/help.svg'
 import community from '../svgs/community.svg'
 import settings from '../svgs/settings.svg'
 import logout from '../svgs/logout.svg'
+import '../CSS/sidebar.css'
 export const Sidebar = () => {
   return (
     <div>

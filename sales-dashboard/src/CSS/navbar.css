@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.nav-first{
+    display: flex;
+    font-weight: 800;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 36px;
+    line-height: 32.94px;
+}
+
+.nav-second input{
+    margin-top: 20px;
+    width: 339px;
+    border-radius: 15px;
+    height: 54px;
+    background-color: #F5F5F5;
+    border: none;
+}
+
+.nav-second img{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+
+ 
+
+
+
+
+

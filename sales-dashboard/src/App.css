@@ -1,79 +1,11 @@
 
-.sidebar{
-  width: 247px;
-  height: 1024px;
+.App{
+    width: 100%;
+    display: flex;
+    font-family: 'Urbanist', sans-serif;
 }
 
-.sidebar>:first-child{
-  margin: 84px 50px;
-  height: 799px;
+.main{
+    width: 748px;
+    border: 1px solid black;
 }
-
-.sidebar>:first-child>:first-child{
-  font-family: 'Urbanist', sans-serif;
-  font-weight: 800;
-  font-size: 48px;
-  color: #0038FF;
-  line-height: 43.92px;
-  margin-top: 0px;
-}
-
-.sidebar>:first-child>:nth-child(2){
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0;
-  position: absolute;
-  width: 149px;
-  height: 686.5px;
-  left: 50px;
-  top: 196.5px;
-}
-.sidebar-group1{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-}
-
-.sidebar-group1>div{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  width: 161px;
-  height: 19px;
-}
-.sidebar-group1>div>p{
-  font-family: 'Urbanist', sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 91.5%;
-  font-size: 15px;
-  color: #9E9E9E;
-}
-
-
-.sidebar-group1>div>img{
-  position: absolute;
-  left: 0px;
-  width: 19px;
-  height: 19px;
-}
-
-.line{
-  margin-top: 54.5px;
-  width: 100%;
-  border: 1px solid #DFDFDF;
-  background-color: #DFDFDF;
-  margin-bottom:54.5px; 
-}
-
-#selected{
-  color: black;
-}
-
-
-
