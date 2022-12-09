@@ -17,7 +17,7 @@
 }
 .earn-graph>:nth-child(1)>:nth-child(1){
     color:#A5A5A5;
-    font-weight: 500;
+    font-weight: 100;
 }
 .earn-graph>:nth-child(1)>:nth-child(2){
         font-size: 40px;

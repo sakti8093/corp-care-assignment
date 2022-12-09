@@ -1,5 +1,5 @@
 import React from 'react'
-import '../CSS/AnalyticsReminder.css'
+import '../CSS/analyticsReminder.css'
 import remimage from '../svgs/remimage.svg'
 import { Line } from 'react-chartjs-2';
 import {Chart as Chartjs} from 'chart.js/auto'
@@ -43,7 +43,7 @@ export const AnalyticsandReminder = () => {
     <div className='analytic-reminder'>
             <div className='analytic'>
               <p>Analytics</p>
-                {loading?<SpinnerDotted/>:<div className='graph'>
+                {loading?<div  className='loader'><SpinnerDotted  /></div>:<div className='graph'>
                   <Line  options={{scales:{y:{beginAtZero:"true",grid:{display:false}},x:{grid:{display:false}}}}}  height={180} data={{
                     labels:graphLabel,
                     datasets:[{

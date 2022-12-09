@@ -60,12 +60,12 @@ const getData=async() => {
         <p>Earnings</p>
         <div className='earn-graph'>
             <div>
-              <p>saved this month</p>
+              <p>Saved this month</p>
               <p>$12,81</p>
               <p>Your payment will be updated by system</p>
             </div>
             <div>
-              {loading?<SpinnerDotted/>:  <Bar width={200} height={200} options={{scales:{y:{beginAtZero:"true",grid:{display:false}},x:{grid:{display:false}}}}} data={{
+              {loading?<div className='loader'><SpinnerDotted/></div>:  <Bar width={200} height={200} options={{scales:{y:{beginAtZero:"true",grid:{display:false}},x:{grid:{display:false}}}}} data={{
                   labels:graphLabel,
                   datasets:[{
                     label:'dataset1',

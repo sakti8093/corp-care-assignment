@@ -1,5 +1,5 @@
 import React from 'react'
-import '../CSS/RightRecent.css'
+import '../CSS/rightRecent.css'
 import people from '../svgs/people.svg'
 import peopleimg1 from '../svgs/peopleimg1.svg'
 import peopleimg2 from '../svgs/peopleimg2.svg'

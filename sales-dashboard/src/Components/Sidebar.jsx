@@ -12,6 +12,8 @@ import logout from '../svgs/logout.svg'
 import '../CSS/sidebar.css'
 export const Sidebar = () => {
   return (
+    <>
+    <div id='selected-style'></div>
     <div>
         <p>LOGO</p>
         <div>
@@ -64,5 +66,6 @@ export const Sidebar = () => {
              </div>
         </div>
     </div>
+    </>
   )
 }
