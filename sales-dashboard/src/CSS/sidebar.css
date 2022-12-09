@@ -46,6 +46,12 @@
     width: 161px;
     height: 19px;
   }
+  .sidebar-group1>:first-child>div{
+    position: absolute;
+    border: 1px solid black;
+    height: 10px;
+    left: -45px;
+  }
   .sidebar-group1>div>p{
     font-family: 'Urbanist', sans-serif;
     font-style: normal;

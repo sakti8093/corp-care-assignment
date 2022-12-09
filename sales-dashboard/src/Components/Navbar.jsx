@@ -2,9 +2,6 @@ import React from 'react'
 import '../CSS/navbar.css'
 import hi from '../svgs/hi.svg'
 import search from '../svgs/search.svg'
-import messages from '../svgs/message.svg'
-import box from '../svgs/box.svg'
-import profile from '../svgs/profile.svg'
 
 export const Navbar = () => {
   return (
