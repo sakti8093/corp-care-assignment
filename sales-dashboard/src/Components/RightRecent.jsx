@@ -7,8 +7,13 @@ import peopleimg3 from '../svgs/peopleimg3.svg'
 import peopleimg4 from '../svgs/peopleimg4.svg'
 import peopleimg5 from '../svgs/peopleimg5.svg'
 import peopleimg6 from '../svgs/peopleimg6.svg'
+import { useEffect } from 'react';
+import { api } from '../api';
+import { useState } from 'react';
+import { SpinnerDotted } from 'spinners-react';
 
 export const RightRecent = () => {
+
   return (
     <div className='right-recent-parent'>
         <p>Recent Transactions</p>
