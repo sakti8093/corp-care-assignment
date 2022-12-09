@@ -29,6 +29,7 @@
     left: 50px;
     top: 196.5px;
   }
+  
   .sidebar-group1{
     display: flex;
     flex-direction: column;
@@ -48,7 +49,6 @@
   }
   .sidebar-group1>:first-child>div{
     position: absolute;
-    border: 1px solid black;
     height: 10px;
     left: -45px;
   }

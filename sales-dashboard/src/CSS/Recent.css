@@ -1,11 +1,9 @@
 
 .mobile-transaction{
   width: 338px;
-  height: 334px;
+  height: 393px;
   box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.06);
   border-radius: 10px;
-  padding: 10px;
-
 }
 
 .recent{
@@ -15,16 +13,24 @@
     margin-top: 30px;
 }
 .recent-graph{
-    border: 1px solid black;
     height:  394px;
     width:  289px;
     margin-left: 28px;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    margin-right: 45px;
 }
 
+.mobile-transaction>:nth-child(1){
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-left: 10px;
+}
 .mobile-transaction>div{
     display: flex;
     justify-content: space-between;
     margin-top: 18px;
+    padding-left: 10px;
 }
 
 .mobile-transaction>div>div{
@@ -55,3 +61,32 @@
 .mobile-transaction>div>:last-child{
     margin-right: 10px;
 }
+
+.recent-graph>:nth-child(1){
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.recent-graph>:nth-child(1)>:nth-child(1){
+    color: #A5A5A5;
+    font-size: 10px;
+}
+.recent-graph>:nth-child(1)>:nth-child(2){
+    font-size: 48px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.recent-graph>:nth-child(1)>:nth-child(3){
+  display: flex;
+  justify-content: space-evenly;
+  color: #A5A5A5;
+}
+.recent-graph>:nth-child(1)>:nth-child(3)>:nth-child(3){
+    color: black;
+}
+.recent>:nth-child(2)>:nth-child(1){
+    margin-left: 30px;
+}
+
